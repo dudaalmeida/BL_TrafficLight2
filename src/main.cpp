@@ -1,10 +1,12 @@
-#include <mbed.h>
+#include "mbed.h"
+
+enum states[RED,GREEN, YELLOW, A, O];
+int state = RED;
+DigitalOut lights[] = {(p6),(p7),(p8)};
 
 int main() {
+    while (1) {
 
-  // put your setup code here, to run once:
-
-  while(1) {
-    // put your main code here, to run repeatedly:
-  }
+        wait_ms(500);
+    }
 }
