@@ -34,6 +34,7 @@ void btnRise(){
 void btnFall(){
     on = 0;
      
+    if(off1 == 0 && c<3 && state != GREEN) c=0;
     if(off1 == 0 && c<3 && state == GREEN){
         c=0;
         nextState(); 
